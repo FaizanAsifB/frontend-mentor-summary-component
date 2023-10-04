@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main class="app">
+      <section class="result">
+        <h2 class="result--heading">Your Result</h2>
+        <div class="score">
+          <p class="score--user">76</p>
+          <p class="score--total">of 100</p>
+        </div>
+        <h2 class="result--grade">Great</h2>
+        <p class="comment">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="summary">
+        <h2 class="summary--heading">Summary</h2>
+        <ul class="list--items">
+          <li class="list--item">
+            <p class="list--category">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="icon for reaction"
+                class="icon"
+              />Reaction
+            </p>
+            <p class="list--result">80 <span> / 100 </span></p>
+          </li>
+          <li class="list--item">
+            <p class="list--category">
+              <img
+                src="./assets/images/icon-memory.svg"
+                alt="icon for memory"
+                class="icon"
+              />Memory
+            </p>
+            <p class="list--result">92 <span> / 100 </span></p>
+          </li>
+          <li class="list--item">
+            <p class="list--category">
+              <img
+                src="./assets/images/icon-verbal.svg"
+                alt="icon for verbal"
+                class="icon"
+              />Verbal
+            </p>
+            <p class="list--result">61 <span> / 100 </span></p>
+          </li>
+          <li class="list--item">
+            <p class="list--category">
+              <img
+                src="./assets/images/icon-visual.svg"
+                alt="icon for visual"
+                class="icon"
+              />Visual
+            </p>
+            <p class="list--result">72 <span> / 100 </span></p>
+          </li>
+        </ul>
+
+        <button type="button" class="btn">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
